@@ -247,7 +247,8 @@ body{
         display: flex;
         align-items: center;
         flex-flow: row-reverse;
-        padding-inline: 3rem;
+        padding-inline: 0rem;
+        margin-block-end: 1.275rem;
     }
     .main article img{
         max-width: 485px;
@@ -285,7 +286,6 @@ body{
         flex-flow: row;
         justify-content: space-between;
         padding: 6.625rem 5.125rem;
-        padding-block-end: 7rem;
     }
     .main__section-three h2{
         text-align: start;
