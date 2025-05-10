@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: hsl(240, 75%, 98%);
+    font-family: 'Open Sans';
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-block-end: 5.375rem;
+}
+.header__logo{
+    width: 80px;
+    height: auto;
+}
+.header__nav{
+    color: hsl(238, 22%, 44%);
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 165px;
+}
+
+.main{
+    padding-inline: 1.25rem;
+}
+.main__section-one{
+    text-align: center;
+    margin-block-end: 11.25rem;
+    padding-inline: 0.625rem;
+}
+.main__section-one div{
+    max-width: 585px;
+}
+
+.main__h1{
+    color: hsl(243, 87%, 12%);
+    font-size: 1.5rem;
+    margin-block: 2.75rem 2rem;
+}
+.main__description{
+    color: hsl(238, 22%, 44%);
+    font-size: 0.875rem;
+}
+.main__input, .main__button{
+    font-family: 'Open Sans';
+    padding: .75rem 1.25rem;
+    width: 100%;
+    border: 1px solid hsl(238, 22%, 44%);
+    border-radius: 5px;
+    margin-block: 2rem .875rem;
+}
+.main__input::placeholder{
+    color: hsl(0, 0%, 75%);
+}
+
+.main__button{
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border: none;
+    margin-block: 0;
+}
+
+.main__h2{
+    font-weight: "Raleway";
+    color: hsl(243, 87%, 12%);
+    margin-block: 5.625rem 1.75rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.main__section-two p {
+    color: hsl(238, 22%, 44%);
+    font-size: .875rem;
+}
+
+.main__see-how{
+    background-color: white;
+    color: hsl(170, 45%, 43%);
+    font-size: .75rem;
+    border: none;
+    border-bottom: .5px solid hsl(170, 45%, 43%);
+    padding-block: .25rem;
+    margin-block: 1.625rem 2.25rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+}
+.main__arrow{
+    margin-inline-start: .25rem;
+}
+
+.main__section-testimony{
+    background-color: white;
+    margin-inline: 1.625rem;
+    margin-block-end: 5rem;
+    padding: 1.375rem 1.625rem;
+    border-radius: 10px;
+}
+
+.main__quote{
+    width: 15px;
+}
+.main__section-testimony p{
+    color: hsl(243, 87%, 12%);
+    font-size: .625rem;
+    line-height: 1.7;
+}
+.main__publisher{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-block-start: 1rem;
+}
+.main__pfp{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-inline-end: .5rem;
+}
+.main__h3{
+    font-size: 0.625rem;
+}
+.main__publisher p{
+    font-size: .5rem;
+}
+
+.main__section-three{
+    background-color: hsl(238, 22%, 44%);
+    margin-inline: -1.25rem;
+    padding-block: 3.375rem;
+    padding-inline: 2.375rem 3.8rem;
+}
+
+.main__section-three h2{
+    color: hsl(240, 75%, 98%);
+    font-weight: "Raleway";
+    font-size: 1.125rem;
+    text-align: center;
+}
+.main__section-three p{
+    color: hsl(240, 75%, 98%);
+    font-size: .875rem;
+    text-align: center;
+    margin-block-start: 1.5rem;
+    
+}
+
+.footer{
+    background-color:  hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+    padding: 2.5rem;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+}
+.footer div:first-of-type{
+    margin-block-end: 1.125rem;
+}
+.footer__contact{
+    margin-block: 2.5rem 3.75rem;
+}
+.footer div img{
+    margin-inline-end: 1rem;
+}
+.footer ul {
+    list-style-type: none;
+}
+.footer__list-two{
+    margin-block-start: 3.375rem;
+}
+.footer ul li{
+    margin-block-end: 1rem;
+}
+
+@media screen  and (min-width:1024px){
+    .header{
+        padding-inline:  5rem;
+        margin-block: 3.5rem 6.25rem;
+        font-size: 1rem;
+    }
+    .header__logo{
+        width: 165px;
+    }
+    .main{
+        padding-inline: 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__illustration{
+        max-width: 600px;
+    }
+    .main__section-one{
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        text-align: start;
+        width: 100%;
+        padding-inline: 5.125rem;
+    }
+    .main__h1{
+        font-size: 2.375rem;
+    }
+    .main__description{
+        font-size: 1.125rem;
+    }
+
+    .main article{
+        display: flex;
+        align-items: center;
+        flex-flow: row-reverse;
+        padding-inline: 5.125rem;
+    }
+    .main article img{
+        max-width: 485px;
+    }
+    .main__h2{
+        font-size: 2.5rem;
+        text-align: start;
+    }
+    .main__section-two p{
+        color: hsl(243, 87%, 12%);
+        max-width: 510px;
+        font-size: .975rem;
+    }
+    .main__see-how{
+        margin-inline: 0;
+        font-size: 1rem;
+    }
+    .main__section-testimony{
+        max-width: 355px;
+    }
+    .main__section-testimony p{
+        font-size: .875rem;
+        margin-block-start: .5rem;
+    }
+    .main__h3{
+        font-size: 0.75rem;
+    }
+    .main__section-testimony div p{
+        font-size: 0.5625rem;
+        margin-block: 0;
+    }
+    .main__section-three{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding: 6.625rem 5.125rem;
+    }
+    .main__section-three h2{
+        text-align: start;
+        font-size: 2rem;
+    }
+    .main__section-three p{
+        font-size: 1.05rem;
+        text-align: start;
+        max-width: 515px;
+    }
+    .main__section-three div:last-of-type{
+        width: 480px;
+
+    }
+    .main__section-three .main__button{
+        width: 41.75%;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6.625rem 4.75rem; 
+        padding-inline-end: 16.375rem;
+    }
+    .footer__logo{
+        width: 180px;
+        height: 55px;
+        margin-block-end: 1.5rem;
+    }
+    .footer ul{
+        margin-block-start: 4.875rem;
+        font-size: 1rem;
+    }
+}
