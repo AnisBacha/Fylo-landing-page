@@ -190,10 +190,17 @@ body{
     .header{
         padding-inline:  5rem;
         margin-block: 3.5rem 6.25rem;
-        font-size: 1rem;
     }
     .header__logo{
         width: 165px;
+    }
+    .header__nav{
+        margin-inline-end: 1rem;
+    }
+    .header__nav li{
+        font-size: 1rem;
+        margin-inline: 1rem;
+        
     }
     .main{
         padding-inline: 0;
@@ -213,18 +220,34 @@ body{
         width: 100%;
         padding-inline: 5.125rem;
     }
+    
     .main__h1{
         font-size: 2.375rem;
+        margin-block: 2rem;
     }
     .main__description{
         font-size: 1.125rem;
+    }
+    .main__section-one .main__div div{
+        margin-block-start: 1.5rem;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+    .main__section-one .main__input{
+        width: 60%;
+        margin: 0;
+        margin-inline-end: 1rem;
+    }
+    .main__section-one .main__button{
+        max-width: 200px;
     }
 
     .main article{
         display: flex;
         align-items: center;
         flex-flow: row-reverse;
-        padding-inline: 5.125rem;
+        padding-inline: 3rem;
     }
     .main article img{
         max-width: 485px;
@@ -262,10 +285,12 @@ body{
         flex-flow: row;
         justify-content: space-between;
         padding: 6.625rem 5.125rem;
+        padding-block-end: 7rem;
     }
     .main__section-three h2{
         text-align: start;
         font-size: 2rem;
+        font-family: "Raleway";
     }
     .main__section-three p{
         font-size: 1.05rem;
@@ -284,8 +309,9 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 6.625rem 4.75rem; 
-        padding-inline-end: 16.375rem;
+        padding-block: 6.625rem 4.5rem; 
+        padding-inline: 4.75rem 16.375rem;
+
     }
     .footer__logo{
         width: 180px;
